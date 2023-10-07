@@ -1,0 +1,319 @@
+
+.website-banner {
+    width: 1440px;
+    height: 783px;
+    overflow: hidden;
+  }
+  
+  .website-banner .overlap {
+    position: relative;
+    height: 872px;
+  }
+  
+  .website-banner .banner-bg {
+    width: 1440px;
+    height: 783px;
+    left: 0;
+    overflow: hidden;
+    background-image: url(./img/bg-mask.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+  }
+  
+  .website-banner .ellipse {
+    top: -343px;
+    left: 835px;
+    position: absolute;
+    width: 734px;
+    height: 734px;
+    background-color: #3fd2ec4c;
+    border-radius: 367px;
+    filter: blur(500px);
+  }
+  
+  .website-banner .div {
+    top: 371px;
+    left: 1px;
+    position: absolute;
+    width: 734px;
+    height: 734px;
+    background-color: #3fd2ec4c;
+    border-radius: 367px;
+    filter: blur(500px);
+  }
+  
+  .website-banner .banner-t-grp {
+    position: absolute;
+    width: 570px;
+    height: 150px;
+    top: 333px;
+    left: 135px;
+  }
+  
+  .website-banner .banner-t {
+    position: absolute;
+    width: 211px;
+    height: 60px;
+    top: 0;
+    left: 0;
+  }
+  
+  .website-banner .text-wrapper {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: "Oxanium-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .website-banner .div-wrapper {
+    position: absolute;
+    width: 49px;
+    height: 60px;
+    top: 0;
+    left: 222px;
+  }
+  
+  .website-banner .banner-t-2 {
+    position: absolute;
+    width: 76px;
+    height: 60px;
+    top: 0;
+    left: 281px;
+  }
+  
+  .website-banner .banner {
+    width: 173px;
+    height: 60px;
+    left: 369px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .website-banner .text-wrapper-2 {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: "Oxanium-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #00eebd;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .website-banner .multiverse-t-ani-wrapper {
+    position: absolute;
+    width: 329px;
+    height: 80px;
+    top: 70px;
+    left: 0;
+  }
+  
+  .website-banner .multiverse-t-ani {
+    position: relative;
+    height: 80px;
+  }
+  
+  .website-banner .text-wrapper-3 {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: "Oxanium-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .website-banner .learn-more-btn {
+    position: absolute;
+    width: 238px;
+    height: 60px;
+    top: 523px;
+    left: 135px;
+  }
+  
+  .website-banner .overlap-group {
+    position: relative;
+    width: 236px;
+    height: 60px;
+    background-image: url(./img/btn-shape.svg);
+    background-size: 100% 100%;
+  }
+  
+  .website-banner .text-wrapper-4 {
+    position: absolute;
+    top: 19px;
+    left: 45px;
+    font-family: "Oxanium-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .website-banner .gaming-showcase-a-f {
+    position: absolute;
+    width: 570px;
+    height: 672px;
+    top: 200px;
+    left: 735px;
+  }
+  
+  .website-banner .games-showcase {
+    position: absolute;
+    width: 570px;
+    height: 583px;
+    top: 0;
+    left: 0;
+  }
+  
+  
+  .nav-links-cont {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+    position: relative;
+  }
+  
+  .nav-links-cont .nav-link-cont-f {
+    position: relative;
+    width: 125px;
+    height: 20px;
+  }
+  
+  .nav-links-cont .nav-link {
+    position: relative;
+    height: 20px;
+    overflow: hidden;
+  }
+  
+  .nav-links-cont .add-you-nav-link {
+    position: absolute;
+    top: -1px;
+    left: 1px;
+    font-family: "Oxanium-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .nav-links-cont .line {
+    position: absolute;
+    width: 8px;
+    height: 2px;
+    top: 8px;
+    left: -13px;
+    background-color: #ffffff;
+  }
+  
+  .nav-links-cont .nav-link-wrapper {
+    position: relative;
+    width: 89px;
+    height: 20px;
+  }
+  
+  .nav-links-cont {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+    position: relative;
+  }
+  
+  .nav-links-cont .nav-link-cont-f {
+    width: 82px;
+    position: relative;
+    height: 20px;
+  }
+  
+  .nav-links-cont .nav-link {
+    position: relative;
+    height: 20px;
+    overflow: hidden;
+  }
+  
+  .nav-links-cont .add-you-nav-link {
+    position: absolute;
+    top: -1px;
+    left: 1px;
+    font-family: "Oxanium-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .nav-links-cont .line {
+    position: absolute;
+    width: 8px;
+    height: 2px;
+    top: 8px;
+    left: -13px;
+    background-color: #ffffff;
+  }
+  
+  .nav-links-cont .nav-link-wrapper {
+    width: 50px;
+    position: relative;
+    height: 20px;
+  }
+  
+  .nav-links-cont .div-wrapper {
+    width: 113px;
+    position: relative;
+    height: 20px;
+  }
+  
+  .image {
+    width: 130px;
+    height: 100px;
+  }
+  
+  .image .img {
+    position: fixed;
+    width: 130px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+
+  .section-heading {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+  }
+  
+  .section-heading .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Oxanium-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .section-heading .rectangle {
+    position: relative;
+    width: 50px;
+    height: 4px;
+  }
+  
+  
