@@ -1,0 +1,12 @@
+<svg width="215" height="60" viewBox="0 0 215 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Btn shape">
+<path d="M11.4305 0H215L203.569 60H0L11.4305 0Z" fill="#1A4D62"/>
+<path d="M11.4305 0H215L203.569 60H0L11.4305 0Z" fill="url(#paint0_linear_12_253)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_12_253" x1="-5" y1="-7.50001" x2="236" y2="89" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0B2F3E"/>
+<stop offset="1" stop-color="#06202A"/>
+</linearGradient>
+</defs>
+</svg>
