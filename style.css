@@ -1,3 +1,23 @@
+.website-banner {
+width: 1440px;
+height: 783px;
+overflow: hidden;
+}
+.website-banner .overlap {
+position: relative;
+height: 872px;
+}
+.website-banner .banner-bg {
+width: 1440px;
+height: 783px;
+left: 0;
+overflow: hidden;
+background-image: url(./img/bg-mask.png);
+background-size: 100% 100%;
+position: absolute;
+top: 0;
+}
+
 .banner-bg-icon,
 .welcome {
   position: absolute;
@@ -6,7 +26,7 @@
 }
 .banner-bg-icon {
   width: 1440px;
-  height: 783px;
+  height: 880px;
   overflow: hidden;
   object-fit: cover;
 }
@@ -80,14 +100,25 @@
 .join-tournament {
   position: absolute;
   top: calc(50% - 11px);
-  left: calc(50% - 73px);
+  left: calc(50% - 73p1x);
   font-weight: 600;
+}
+.join-tournament a {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-left: 20%;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Oxanium, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
 }
 .learn-more-btn-1 {
   position: absolute;
   height: 7.66%;
   width: 16.39%;
-  top: 66.79%;
+  top: 40.79%;
   right: 74.24%;
   bottom: 25.54%;
   left: 9.38%;
@@ -189,7 +220,7 @@
   top: 0;
   left: 0;
   width: 1440px;
-  height: 783px;
+  height: 1280px;
   font-size: var(--font-size-29xl);
 }
 .add-you-nav {
@@ -212,6 +243,16 @@
   height: 20px;
   overflow: hidden;
 }
+.tournament a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Oxanium, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
+}
 .nav-link-1 {
   position: absolute;
   top: 0;
@@ -226,6 +267,16 @@
   width: 89px;
   height: 20px;
   overflow: hidden;
+}
+.ourteam a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Oxanium, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
 }
 .nav-link-2 {
   position: absolute;
@@ -253,6 +304,16 @@
   height: 20px;
   overflow: hidden;
 }
+.oursponsers a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Oxanium, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
+}
 .nav-link-11 {
   position: absolute;
   top: 0;
@@ -267,6 +328,16 @@
   width: 50px;
   height: 20px;
   overflow: hidden;
+}
+.aboutus a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Oxanium, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
 }
 .nav-link-21 {
   position: absolute;
@@ -283,10 +354,30 @@
   height: 20px;
   overflow: hidden;
 }
+.shop a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Oxanium, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
+}
 .nav-link-31 {
   position: absolute;
   top: 0;
   left: 0;
+}
+.contactus a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Oxanium, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
 }
 .nav-link-cont-f-6 {
   position: relative;
@@ -452,6 +543,16 @@
   left: calc(50% - 45.5px);
   font-weight: 600;
 }
+.view-more a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Oxanium, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
+}
 .learn-more-btn-2 {
   position: absolute;
   height: 5.51%;
@@ -494,6 +595,17 @@
   top: 29.63%;
   left: calc(50% - 48.5px);
   font-weight: 600;
+}
+
+.learn-more a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Oxanium, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
 }
 .learn-more-btn-11 {
   position: absolute;
@@ -783,6 +895,16 @@
   left: calc(50% - 30.5px);
   font-weight: 600;
 }
+.submit a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Oxanium, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
+}
 .learn-more-btn-3 {
   position: absolute;
   height: 9.84%;
@@ -863,6 +985,16 @@
   top: 29.63%;
   left: calc(50% - 34.5px);
   font-weight: 600;
+}
+.view-all a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Oxanium, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
 }
 .learn-more-btn-4 {
   position: absolute;
@@ -1100,4 +1232,25 @@
   font-size: var(--font-size-base);
   color: var(--color-white);
   font-family: var(--font-oxanium);
+}
+
+.ellipse-1 {
+  background: rgba(63, 210, 236, 0.3);
+  border-radius: 50%;
+  width: 734px;
+  height: 734px;
+  position: absolute;
+  left: 835px;
+  top: -343px;
+  filter: blur(250px);
+}
+.ellipse-2 {
+  background: rgba(63, 210, 236, 0.3);
+  border-radius: 50%;
+  width: 734px;
+  height: 600px;
+  position: absolute;
+  left: 1px;
+  top: 100px;
+  filter: blur(250px);
 }
